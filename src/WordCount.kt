@@ -34,8 +34,12 @@ fun main(args: Array<String>) {
         val sortedList = wordList.sortedWith(compareByDescending({it.second}))
 
         // Print a sorted list of most popular words.
+        val divTag = document.getElementById("myList")!!
+        var listItems = ""
         for (word in sortedList) {
-            println("${word.first} - ${word.second}")
+            // Create the list items.
+            listItems += "<li>${word.first} - ${word.second}</li>"
         }
+        divTag.innerHTML += wordList
     })
 }
