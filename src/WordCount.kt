@@ -40,6 +40,6 @@ fun main(args: Array<String>) {
             // Create the list items.
             listItems += "<li>${word.first} - ${word.second}</li>"
         }
-        divTag.innerHTML += wordList
+        divTag.innerHTML = listItems
     })
 }
