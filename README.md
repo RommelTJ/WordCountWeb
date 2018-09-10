@@ -1,6 +1,6 @@
 # WordCountWeb
 
-Version: 0.0.1 - 9 Sep 2018
+Version: 1.0.0 - 10 Sep 2018
 
 ## Description
 
